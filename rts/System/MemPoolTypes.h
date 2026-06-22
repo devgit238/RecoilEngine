@@ -376,7 +376,7 @@ private:
 
 // Helper to infer the StaticMemPool pool parameters from a types.
 template<size_t N, class... T>
-using StaticMemPoolT = 	StaticMemPool<N, TypesMemSize<T...>, TypesMemAlignment<T...>>;
+using StaticMemPoolT = StaticMemPool<N, TypesMemSize<T...>, TypesMemAlignment<T...>>;
 
 
 // dynamic memory allocator operating with stable index positions
